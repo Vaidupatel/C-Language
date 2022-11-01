@@ -25,11 +25,20 @@ int main(){
                {
                goto end;
                }
+               else if (num==5)
+               {
+                    goto first;
+               }
           
          }
      
     }
+    first:
+    {
+     printf("you are come at place of first lable");
+    }
     end:
+    
 
      return 0;
 }
