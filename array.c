@@ -22,16 +22,29 @@ SYNTEX OF ARRAY
 
 #include<stdio.h>
 int main(){
-int marks[4];
-int i;
-for(i=0;i<4;i++)
+// int marks[4];
+// int i;
+// for(i=0;i<4;i++)
+// {
+//      printf("Enter the value of %d element of an array\n",i);
+//      scanf("%d",&marks[i]);
+// }
+// for(i=0;i<4;i++)
+// {
+//      printf("The value of %d element of an array is %d\n",i,marks[i]);
+// }
+
+
+int marks[][4]={{2,4,6,8},{1,3,5,7}};
+int i,j;
+for(i=0;i<2;i++)
 {
-     printf("Enter the value of %d element of an array\n",i);
-     scanf("%d",&marks[i]);
+for(j=0;j<4;j++)
+{
+     // printf("The value of %d,%d element of an array is %d\n",i,j,marks[i][j]);
+     printf("%d ",marks[i][j]);
 }
-for(i=0;i<4;i++)
-{
-     printf("The value of %d element of an array is %d\n",i,marks[i]);
+printf("\n");
 }
 return 0;
 }
