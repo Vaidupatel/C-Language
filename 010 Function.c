@@ -23,6 +23,7 @@ TYPES OF FUNCTION
 
 #include<stdio.h>
 int sum(int a, int b);   //This is called function prorotype, like declaration
+
 //with argument and without return type.
 void printstar(int n)
 {
@@ -32,6 +33,7 @@ for(int i = 0; i < n; i++)
      printf(" \n");
 }
 }
+
 // without argument and with return type
 int takenumber()
 {
@@ -40,6 +42,7 @@ int takenumber()
      scanf("%d", &i);
      return i;
 }
+
 // without argument and without return type
 void print()
 {
@@ -49,6 +52,7 @@ void print()
      printf(" * ");
     }
 }
+
 int main(){
      int a,b,c,d; 
      a=9;
@@ -62,6 +66,7 @@ int main(){
 
      return 0;
 }
+
 // with argument and with return type
 int sum(int a, int b)
 {
