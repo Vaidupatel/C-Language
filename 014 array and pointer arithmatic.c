@@ -32,7 +32,11 @@ printf("THe adress of a++ is %d\n",ptra);
 // ------------------------->ARRAY AND POINTERS<-------------------------
 // If arr is a pointer to arr[0] then arr+i is pointer to arr[i]
 int arr[]={1,2,3,4,5,6,7,8,9};
-int *ptr=arr;
+
+// it's a pointer to the 1'st index of arrar means pointer to arr[0]
+int *ptr=arr; 
+
+
 printf("value at the possition 3 of the array is  %d\n",arr[3]);
 //print the address of first element all three are same
 printf("The address of first element of the array is %d\n",&arr[0]);
