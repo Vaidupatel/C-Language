@@ -43,7 +43,9 @@ void parser(char * string)
     }
 }
 int main(){
-
+     // char string[100];
+     // printf("Enter the tage to be parser\n"); 
+     // gets(string);
      char string[]="<h1>     This is a hadding   </h1>";
      parser(string);
      printf("The parsed string is ~~%s~~\n",string); 
