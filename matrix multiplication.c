@@ -21,7 +21,7 @@ scanf("%d",&r2);
 printf("Enter the number of column in 2nd metrix\n"); 
 scanf("%d",&c2);
 
-if(c1!=r1)
+if(r2!=c1)
 {
      printf("This metrix are can't be multiplied because of different size\n"); 
 }
