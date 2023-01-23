@@ -1,3 +1,10 @@
+/*
+After multiplication of two matrix effective eqation of matrx multiplicaton is: 
+Cij=Ai0.Boj+Ai1.B1j+……+Ain.Bnj
+Cij=∑Aik.Bkj
+     k=0 to N-1
+
+*/
 #include<stdio.h>
 int main(){
      int r1,r2,c1,c2,n=2;
@@ -14,7 +21,7 @@ scanf("%d",&r2);
 printf("Enter the number of column in 2nd metrix\n"); 
 scanf("%d",&c2);
 
-if(r1!=r2 || c1!=c2)
+if(c1!=r1)
 {
      printf("This metrix are can't be multiplied because of different size\n"); 
 }
